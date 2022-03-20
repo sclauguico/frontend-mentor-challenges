@@ -7,5 +7,6 @@
 <ol>
  <li><a href="https://sclauguico.github.io/nft-preview-card/">NFT Preview Card with HTML and CSS</a>
  <li><a href="https://sclauguico.github.io/qr-code-component/">QR Code Component with HTML and CSS</a>
- <li><a href="https://sclauguico.github.io/order-summary-component/">Order SUmmary Component with HTML and CSS</a>
+ <li><a href="https://sclauguico.github.io/order-summary-component/">Order Summary Component with HTML and CSS</a>
+ <li><a href="https://sclauguico.github.io/3-column-preview-card/">3-Column Preview Card Component with HTML and CSS</a>
 </ol>
