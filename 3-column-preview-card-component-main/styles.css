@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;500;700&family=Lexend+Deca&family=Roboto:wght@100&family=Syne+Tactile&display=swap");
+
+/* font-family: 'Big Shoulders Display', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Syne Tactile', cursive; */
+
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --very-light-gray: hsl(0, 0%, 95%);
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+}
+
+body {
+  background-color: var(--very-light-gray);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 12px;
+  margin: 2rem;
+  overflow: hidden;
+}
+
+.box {
+  padding: 40px;
+}
+
+.box h2 {
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+  color: white;
+  font-size: 30px;
+  color: var(--very-light-gray);
+}
+
+.box p {
+  color: var(--transparent-white);
+  line-height: 1.6;
+}
+
+.box a {
+  text-decoration: none;
+  background-color: var(--very-light-gray);
+  padding: 13px 27px;
+  border-radius: 26px;
+  margin-top: 60px;
+  display: inline-block;
+  border: 2px solid var(--very-light-gray);
+  transition: all 0.4s ease-in-out;
+}
+
+.box a:hover {
+  color: var(--very-light-gray);
+  background-color: transparent;
+}
+
+.sedan-box {
+  background-color: var(--bright-orange);
+}
+
+.sedan-box a {
+  color: var(--bright-orange);
+}
+
+.suv-box {
+  background-color: var(--dark-cyan);
+}
+
+.suv-box a {
+  color: var(--dark-cyan);
+}
+
+.luxury-box {
+  background-color: var(--very-dark-cyan);
+}
+
+.luxury-box a {
+  color: var(--very-dark-cyan);
+}
+
+@media only screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .grid-container {
+    margin: 2rem 0.5rem;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover {
+  color: gray;
+  text-decoration: none;
+}
